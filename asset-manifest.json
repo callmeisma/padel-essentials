@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/padel-essentials/static/css/main.2b7f330f.css",
-    "main.js": "/padel-essentials/static/js/main.dcf31620.js",
+    "main.css": "/padel-essentials/static/css/main.8c5f3874.css",
+    "main.js": "/padel-essentials/static/js/main.1bf75419.js",
     "static/js/787.a42b0567.chunk.js": "/padel-essentials/static/js/787.a42b0567.chunk.js",
     "index.html": "/padel-essentials/index.html",
-    "main.2b7f330f.css.map": "/padel-essentials/static/css/main.2b7f330f.css.map",
-    "main.dcf31620.js.map": "/padel-essentials/static/js/main.dcf31620.js.map",
+    "main.8c5f3874.css.map": "/padel-essentials/static/css/main.8c5f3874.css.map",
+    "main.1bf75419.js.map": "/padel-essentials/static/js/main.1bf75419.js.map",
     "787.a42b0567.chunk.js.map": "/padel-essentials/static/js/787.a42b0567.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b7f330f.css",
-    "static/js/main.dcf31620.js"
+    "static/css/main.8c5f3874.css",
+    "static/js/main.1bf75419.js"
   ]
 }
