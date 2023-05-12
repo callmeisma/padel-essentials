@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* BASE */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+.app {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Lato", sans-serif;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* TYPOGRAPHY */
+.font-display {
+  font-size: 4rem;
+
+  @apply font-bold leading-tight tracking-tight;
+}
+
+
+h1,
+.h1 {
+  font-size: 2.5rem;
+
+  @apply font-bold leading-tight tracking-tight;
+
+}
+
+h2,
+.h2 {
+  font-size: 2.0rem;
+
+  @apply font-bold leading-tight;
+}
+
+h3,
+.h3 {
+  font-size: 1.5rem;
+
+  @apply font-bold leading-normal;
+}
+
+h4,
+.h4 {
+  font-ize: 1.125rem;
+
+  @apply font-bold leading-normal;
+}
+
+h5,
+.h5 {
+  @apply font-bold uppercase tracking-wide text-sm;
+}
+
+.link {
+  @apply text-blue-500 hover:text-blue-600 focus:text-blue-600;
+}
+
+/* BUTTONS */
+.btn {
+  @apply inline-flex text-sm font-semibold text-center px-4 py-0 rounded no-underline items-center justify-between shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 hover:cursor-pointer focus:cursor-pointer;
+
+  height: 40px;
+  line-height: 40px;
+  transition: ease 0.3s background, ease 0.3s transform, ease 0.2s color;
+}
+
+.btn-primary {
+  @apply bg-gray-600 text-white focus:ring-gray-500 hover:bg-gray-600 hover:text-white focus:bg-gray-600 focus:text-white;
+}
