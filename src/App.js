@@ -17,7 +17,7 @@ function App() {
     <div className="h-screen w-screen flex flex-col">
       <Nav />
       <Routes className="grow">
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         {/* <Route path="/courts" element={<Courts />} /> */}

@@ -3,10 +3,10 @@ import React from "react";
 function Home() {
   return (
     <div
-      className="bg-right-bottom"
+      className="bg-cover bg-left-top"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3),
-                       rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-photo/tennis-paddles-balls-arrangement_23-2149434236.jpg?w=1800&t=st=1683829937~exp=1683830537~hmac=7264604d2369d3b08399197f216482e20eca75aac9cf4dfb2b01320521145da6")`,
+                       rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1661881545067-b15c94c6b7cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80")`,
       }}
     >
       <div class="w-1/2 mx-auto py-48 flex flex-col items-center">
