@@ -75,7 +75,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="py-6">
+      <div className="">
         <div
           className="h-96"
           style={{
