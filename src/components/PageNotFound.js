@@ -2,9 +2,13 @@ import React from "react";
 
 function About() {
   return (
-    <div>
-      <p>404 Page not found</p>
-    </div>
+    <main className="flex flex-col justify-center items-center space-y-12 px-6">
+      <h1 className="text-8xl">404</h1>
+      <p>
+        You didn't break the internet, but we can't find what you are looking
+        for
+      </p>
+    </main>
   );
 }
 

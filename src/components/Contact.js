@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="flex flex-col md:h-full">
+    <main className="flex flex-col md:h-full">
       <h1 className="sr-only">Contact Us</h1>
       <div
         className="h-96"
@@ -12,9 +12,9 @@ function Contact() {
           backgroundPosition: "80% 75%",
         }}
       ></div>
-      <div className="flex flex-col md:flex-row md:grow">
-        <div className="w-full p-6 space-y-6">
-          <h2>Pitch Us</h2>
+      <div className="flex flex-col md:flex-row md:w-3/4 md:mx-auto md:grow">
+        <div className="px-6 py-10 space-y-4 md:w-4/6 md:mx-auto">
+          <h2 className="text-4xl font-serif font-light">Contact Us</h2>
           <div className="space-y-2">
             <p className="text-left">
               Always more than happy to hear about something new we can start
@@ -32,18 +32,8 @@ function Contact() {
             Send Email
           </a>
         </div>
-        <div className="w-full bg-neutral-600 p-6 space-y-6 text-neutral-100">
-          <h2 className="">Contact Us</h2>
-          <ul className="space-y-2">
-            <li>
-              <a href="mailto:support@padelessentials.com">
-                support@padelessentials.com
-              </a>
-            </li>
-          </ul>
-        </div>
       </div>
-    </div>
+    </main>
   );
 }
 

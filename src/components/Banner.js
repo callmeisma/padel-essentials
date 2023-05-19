@@ -7,7 +7,7 @@ function Banner() {
         <p className="uppercase font-light tracking-widest">
           We enjoy meeting new people
         </p>
-        <h3 className="text-5xl font-serif font-light">
+        <h3 className="text-5xl font-serif font-light text-center">
           Interested in working with us?
         </h3>
       </div>
