@@ -12,6 +12,56 @@ main {
   flex: 1;
 }
 
+
+/* BUTTONS */
+.btn-primary {
+  @apply rounded-md bg-amber-300 px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600;
+}
+
+/* CARDS */
+.card {
+  @apply space-y-6 h-full lg:w-1/3 ;
+}
+
+.card-image-wrapper {
+  @apply h-96 md:h-72;  
+}
+
+.card-image {
+  @apply w-full h-full object-cover drop-shadow-lg;
+}
+
+.card-contents {
+  @apply space-y-2 px-6 py-2 md:px-0;
+}
+.card-title {
+  @apply text-left text-xl font-semibold uppercase tracking-wide md:text-center;
+}
+
+.card-desc {
+  @apply leading-relaxed;  
+}
+
+/* BANNERS */
+.banner-wrapper {
+  @apply bg-cover bg-left-top flex h-[30rem] items-center;
+}
+
+.banner-content {
+  @apply flex flex-col space-y-12 md:mx-auto md:w-3/4 md:grow;
+}
+
+.banner-title {
+  @apply text-center font-bold text-5xl tracking-wide text-white md:mx-auto md:w-3/5;
+}
+/* BILLBOARDS */
+.billboard-wrapper {
+  @apply px-6 py-6 space-y-6 md:w-3/4 md:mx-auto;
+}
+.billboard {
+  @apply italic font-serif text-center text-3xl text-cyan-700 py-10 lg:px-12;
+}
+
 /* TYPOGRAPHY */
 .font-display {
   font-size: 4rem;
@@ -56,17 +106,4 @@ h5,
 
 .link {
   @apply text-blue-500 hover:text-blue-600 focus:text-blue-600;
-}
-
-/* BUTTONS */
-.btn {
-  @apply inline-flex text-sm font-semibold text-center px-4 py-0 rounded no-underline items-center justify-between shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 hover:cursor-pointer focus:cursor-pointer;
-
-  height: 40px;
-  line-height: 40px;
-  transition: ease 0.3s background, ease 0.3s transform, ease 0.2s color;
-}
-
-.btn-primary {
-  @apply bg-gray-600 text-white focus:ring-gray-500 hover:bg-gray-600 hover:text-white focus:bg-gray-600 focus:text-white;
 }
