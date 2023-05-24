@@ -13,7 +13,7 @@ function Home() {
       >
         <div class="banner-content">
           <div className="space-y-4">
-            <h1 class="text-center text-5xl font-bold uppercase tracking-wide text-white md:text-7xl">
+            <h1 class="text-center font-rhodium text-5xl font-bold uppercase tracking-wide text-white md:text-7xl">
               Padel Essentials
             </h1>
             <h2 class="mx-auto w-4/5 text-center text-4xl font-thin tracking-wide text-white md:w-full">
@@ -27,10 +27,7 @@ function Home() {
             <a href="/services" class="btn-primary">
               Learn More
             </a>
-            <a
-              href="/about"
-              class="text-sm font-semibold leading-6 text-gray-900 text-white"
-            >
+            <a href="/about" class="text-sm font-semibold leading-6 text-white">
               Who we are <span aria-hidden="true">→</span>
             </a>
           </div>

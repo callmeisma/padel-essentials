@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../PadelEssentialsLogo.svg";
 
 function Nav() {
   return (
     <nav className="px-12 py-6 shadow-md">
       <ul className="flex list-none flex-col items-center justify-center space-y-4 md:flex-row md:space-y-0">
         <li className="grow text-center font-bold uppercase sm:text-left">
-          <Link to="/">Padel Essentials</Link>
+          <Link to="/">
+            <img src={Logo} alt="Padel Essentials" width="250" />
+          </Link>
         </li>
         <li>
           <ul className="flex list-none items-center justify-center space-x-6">
