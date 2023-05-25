@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "./static/css/main.6ad7599a.css",
-    "main.js": "./static/js/main.d8814a8d.js",
+    "main.js": "./static/js/main.a4ef43ea.js",
     "static/js/787.a42b0567.chunk.js": "./static/js/787.a42b0567.chunk.js",
     "static/media/PadelEssentialsLogo.png": "./static/media/PadelEssentialsLogo.76afb44bccde09250117.png",
     "index.html": "./index.html",
     "main.6ad7599a.css.map": "./static/css/main.6ad7599a.css.map",
-    "main.d8814a8d.js.map": "./static/js/main.d8814a8d.js.map",
+    "main.a4ef43ea.js.map": "./static/js/main.a4ef43ea.js.map",
     "787.a42b0567.chunk.js.map": "./static/js/787.a42b0567.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ad7599a.css",
-    "static/js/main.d8814a8d.js"
+    "static/js/main.a4ef43ea.js"
   ]
 }
