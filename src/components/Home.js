@@ -100,9 +100,9 @@ function Home() {
           </li>
         </ul>
         <div class="flex items-center justify-center">
-          <a href="/services" class="btn-primary">
+          <Link to="/services" className="btn-primary">
             View All Services
-          </a>
+          </Link>
         </div>
       </div>
       <div className="billboard-wrapper">
