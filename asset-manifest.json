@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.7c59f602.css",
-    "main.js": "./static/js/main.086e83dd.js",
+    "main.css": "./static/css/main.6ad7599a.css",
+    "main.js": "./static/js/main.d8814a8d.js",
     "static/js/787.a42b0567.chunk.js": "./static/js/787.a42b0567.chunk.js",
-    "static/media/PadelEssentialsLogo.svg": "./static/media/PadelEssentialsLogo.dd6923704c1781c84e2354d5b4a0f60b.svg",
+    "static/media/PadelEssentialsLogo.png": "./static/media/PadelEssentialsLogo.76afb44bccde09250117.png",
     "index.html": "./index.html",
-    "main.7c59f602.css.map": "./static/css/main.7c59f602.css.map",
-    "main.086e83dd.js.map": "./static/js/main.086e83dd.js.map",
+    "main.6ad7599a.css.map": "./static/css/main.6ad7599a.css.map",
+    "main.d8814a8d.js.map": "./static/js/main.d8814a8d.js.map",
     "787.a42b0567.chunk.js.map": "./static/js/787.a42b0567.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c59f602.css",
-    "static/js/main.086e83dd.js"
+    "static/css/main.6ad7599a.css",
+    "static/js/main.d8814a8d.js"
   ]
 }
