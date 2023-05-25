@@ -1,8 +1,12 @@
-import React from "react";
+import { React, useEffect } from "react";
 // import { Link } from "react-router-dom";
 import CallToAction from "./CallToAction";
 
 function Services() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main className="flex flex-col">
       <h1 className="sr-only">Services</h1>
