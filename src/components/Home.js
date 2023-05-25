@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import CallToAction from "./CallToAction";
 
 function Home() {
@@ -12,7 +13,7 @@ function Home() {
         }}
       >
         <div class="banner-content">
-          <div className="space-y-4">
+          <div className="space-y-2">
             <h1 class="text-center font-rhodium text-5xl font-bold uppercase tracking-wide text-white md:text-7xl">
               Padel Essentials
             </h1>
@@ -24,12 +25,15 @@ function Home() {
             </h2>
           </div>
           <div class="flex items-center justify-center gap-x-6">
-            <a href="/services" class="btn-primary">
+            <Link to="/services" className="btn-primary">
               Learn More
-            </a>
-            <a href="/about" class="text-sm font-semibold leading-6 text-white">
+            </Link>
+            <Link
+              to="/about"
+              className="text-sm font-semibold leading-6 text-white"
+            >
               Who we are <span aria-hidden="true">→</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

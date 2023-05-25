@@ -12,11 +12,6 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    // <div className="flex flex-col items-center justify-center min-h-screen px-6">
-    //   <h1>Coming</h1>
-    //   <h1>🎾</h1>
-    //   <h1>Soon</h1>
-    // </div>
     <div className="flex min-h-screen flex-col">
       <Nav />
       <Routes>

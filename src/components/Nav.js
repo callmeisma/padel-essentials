@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../PadelEssentialsLogo.svg";
+import Logo from "../PadelEssentialsLogo.png";
 
 function Nav() {
   return (
@@ -8,7 +8,7 @@ function Nav() {
       <ul className="flex list-none flex-col items-center justify-center space-y-4 md:flex-row md:space-y-0">
         <li className="grow text-center font-bold uppercase sm:text-left">
           <Link to="/">
-            <img src={Logo} alt="Padel Essentials" width="250" />
+            <img src={Logo} alt="Padel Essentials" width="200" />
           </Link>
         </li>
         <li>

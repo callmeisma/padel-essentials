@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
@@ -11,9 +12,9 @@ function Banner() {
           Ready to start your <span className="font-semibold">Padel Club</span>?
         </h3>
       </div>
-      <a href="/about" class="btn-primary">
+      <Link to="/contact" className="btn-primary">
         Contact Us
-      </a>
+      </Link>
     </div>
   );
 }
