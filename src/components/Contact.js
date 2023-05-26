@@ -33,8 +33,8 @@ function Contact() {
             </p>
           </div>
           <div class="flex items-center justify-start">
-            <a class="btn-primary" href="mailto: support@padelessentials.com">
-              Send Email
+            <a class="btn-primary" href="mailto:support@padelessentials.com">
+              support@padelessentials.com
             </a>
           </div>
         </div>
