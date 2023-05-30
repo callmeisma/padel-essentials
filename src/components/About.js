@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CallToAction from "./CallToAction";
+import { Helmet } from "react-helmet-async";
 
 function About() {
   return (
     <main className="">
+      <Helmet>
+        <title>About Test</title>
+        <meta name="description" content="Descirption for about section" />
+        <link rel="canonical" href="/about" />
+      </Helmet>
       <div
         className="banner-wrapper"
         style={{
