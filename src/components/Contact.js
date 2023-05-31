@@ -1,8 +1,17 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 function Contact() {
   return (
     <main className="flex flex-col md:h-full">
+      <Helmet>
+        <title>Contact Us</title>
+        <meta
+          name="description"
+          content="Partner with us today and unlock the full potential of your Padel Club's pro shop, enhancing customer satisfaction and driving increased sales and profits."
+        />
+        <link rel="canonical" href="/contact" />
+      </Helmet>
       <h1 className="sr-only">Contact Us</h1>
       <div
         className="banner-wrapper"
@@ -21,7 +30,7 @@ function Contact() {
           </p>
         </div>
         <div className="flex flex-col items-start justify-center space-y-6 px-6 md:mx-auto md:w-3/5 md:items-center">
-          <h2 className="font-serif text-4xl font-light">Contact Us</h2>
+          <h2 className="font-serif text-4xl font-light">Get In Touch</h2>
           <div className="flex flex-col space-y-2">
             <p className="text-left">
               Always more than happy to hear about something new we can start

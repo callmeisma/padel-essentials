@@ -8,9 +8,9 @@ function Banner() {
         <p className="font-light uppercase tracking-widest">
           Join the Padel fever
         </p>
-        <h3 className="text-center font-serif text-5xl font-light">
+        <p className="text-center font-serif text-5xl font-light">
           Ready to start your <span className="font-semibold">Padel Club</span>?
-        </h3>
+        </p>
       </div>
       <Link to="/contact" className="btn-primary">
         Contact Us

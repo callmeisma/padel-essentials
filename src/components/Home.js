@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CallToAction from "./CallToAction";
+import Logo from "../PadelEssentials_LogoWhite.svg";
 
 function Home() {
   return (
     <main>
+      <h1 className="sr-only">Padel Essentials</h1>
       <div
         className="banner-wrapper"
         style={{
@@ -14,15 +16,15 @@ function Home() {
       >
         <div class="banner-content">
           <div className="space-y-2">
-            <h1 class="text-center font-rhodium text-5xl font-bold uppercase tracking-wide text-white md:text-7xl">
+            <p class="text-center font-rhodium text-5xl font-bold uppercase tracking-wide text-white md:text-7xl">
               Padel Essentials
-            </h1>
-            <h2 class="mx-auto w-4/5 text-center text-4xl font-thin tracking-wide text-white md:w-full">
+            </p>
+            <p class="mx-auto w-4/5 text-center text-4xl font-thin tracking-wide text-white md:w-full">
               your
               <span className="font-bold italic"> one-stop shop</span> for all
               things
               <span className="font-bold italic"> Padel!</span>
-            </h2>
+            </p>
           </div>
           <div class="flex items-center justify-center gap-x-6">
             <Link to="/services" className="btn-primary">
@@ -53,12 +55,16 @@ function Home() {
             <div className="card-image-wrapper">
               <img
                 src="https://images.unsplash.com/photo-1658491830143-72808ca237e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1546&q=80"
-                alt="Spinning Ball with water"
+                alt="Padel Court Net"
                 className="card-image"
+                loading="lazy"
+                title="Padel Court Net"
+                width="400"
+                height="auto"
               ></img>
             </div>
             <div className="card-contents">
-              <h4 className="card-title">Courts</h4>
+              <h3 className="card-title">Courts</h3>
               <p className="card-desc">
                 Serve up excellence with our court supplier services - we've got
                 you covered from baseline to net!
@@ -69,12 +75,16 @@ function Home() {
             <div className="card-image-wrapper">
               <img
                 src="https://images.unsplash.com/photo-1646649852033-7e0f3d679f8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80"
-                alt="Spinning Ball with water"
+                alt="Two Padel Players about to shake hands"
                 className="card-image"
+                loading="lazy"
+                title="Padel Players"
+                width="400"
+                height="auto"
               ></img>
             </div>
             <div className="card-contents">
-              <h4 className="card-title">Consulting</h4>
+              <h3 className="card-title">Consulting</h3>
               <p className="card-desc">
                 Let our court builder consulting service ace your project with
                 precision and expertise - we're your court-side partner from
@@ -86,12 +96,16 @@ function Home() {
             <div className="card-image-wrapper">
               <img
                 src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                alt="Spinning Ball with water"
+                alt="Open Sign on Shop Door"
                 className="card-image"
+                loading="lazy"
+                title="Open Shop"
+                width="400"
+                height="auto"
               ></img>
             </div>
             <div className="card-contents">
-              <h4 className="card-title">Store</h4>
+              <h3 className="card-title">Store</h3>
               <p className="card-desc">
                 Partner with us to smash your retail goals and serve up success
                 with our expert assistance in setting up your padel store!
@@ -117,16 +131,24 @@ function Home() {
           <img
             src="
         https://images.unsplash.com/photo-1673266893877-f31c1583aad3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2066&q=80"
-            alt="Spinning Ball with water"
+            alt="Padel Courts Overhead"
             className="min-h-full	min-w-full shrink-0	object-cover"
+            loading="lazy"
+            title="Padel Courts Overhead"
+            width="700"
+            height="auto"
           ></img>
         </div>
         <div className="flex items-center justify-center overflow-hidden lg:w-1/2">
           <img
             src="
         https://images.unsplash.com/photo-1673266893744-17a8cc6518fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2066&q=80"
-            alt="Spinning Ball with water"
+            alt="Padel Courts Overhead Angled"
             className="min-h-full	min-w-full shrink-0	object-cover"
+            loading="lazy"
+            title="Padel Courts Overhead Angled"
+            width="700"
+            height="auto"
           ></img>
         </div>
       </div>

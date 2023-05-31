@@ -7,10 +7,14 @@ function About() {
   return (
     <main className="">
       <Helmet>
-        <title>About Test</title>
-        <meta name="description" content="Descirption for about section" />
+        <title>About Us</title>
+        <meta
+          name="description"
+          content="Our goal is to assist you in creating a profitable and thriving Padel Club by capitalizing on the revenue-generating potential of a well-designed pro shop."
+        />
         <link rel="canonical" href="/about" />
       </Helmet>
+      <h1 className="sr-only">About Us</h1>
       <div
         className="banner-wrapper"
         style={{
@@ -20,13 +24,12 @@ function About() {
         }}
       >
         <div class="banner-content">
-          <h1 class="banner-title">
+          <p class="banner-title">
             <span className="font-bold">Cutting-edge</span> courts with
             <span className="font-bold"> state-of-the-art</span> equipment.
-          </h1>
+          </p>
         </div>
       </div>
-      <h1 className="sr-only">About Us</h1>
       <div className="space-y-4 px-6 pb-10 pt-20 md:mx-auto md:w-4/6">
         <h2 className="font-serif text-4xl font-light">Who we are</h2>
         <p>

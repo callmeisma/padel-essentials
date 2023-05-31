@@ -1,14 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../PadelEssentialsLogo.png";
+import Logo from "../PadelEssentials_Logo.svg";
 
 function Nav() {
   return (
     <nav className="px-12 py-6 shadow-md">
-      <ul className="flex list-none flex-col items-center justify-center space-y-4 md:flex-row md:space-y-0">
-        <li className="grow text-center font-bold uppercase sm:text-left">
+      <ul className="flex list-none flex-col items-center justify-center space-y-4 md:flex-row md:justify-between md:space-y-0">
+        <li className="">
           <Link to="/">
-            <img src={Logo} alt="Padel Essentials" width="200" />
+            <img
+              src={Logo}
+              alt="Padel Essentials"
+              width="200"
+              height="auto"
+              title="Padel Essentials Logo"
+              loading="eager"
+            />
           </Link>
         </li>
         <li>
@@ -34,9 +41,6 @@ function Nav() {
                 Services
               </Link>
             </li>
-            {/* <li>
-              <Link to="/courts">Courts</Link>
-            </li> */}
             <li>
               <Link
                 to="/contact"

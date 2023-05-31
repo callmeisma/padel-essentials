@@ -1,6 +1,6 @@
 import { React, useEffect } from "react";
-// import { Link } from "react-router-dom";
 import CallToAction from "./CallToAction";
+import { Helmet } from "react-helmet-async";
 
 function Services() {
   useEffect(() => {
@@ -9,6 +9,11 @@ function Services() {
 
   return (
     <main className="flex flex-col">
+      <Helmet>
+        <title>Services</title>
+        <meta name="description" content="Descirption for about section" />
+        <link rel="canonical" href="/services" />
+      </Helmet>
       <h1 className="sr-only">Services</h1>
       <div
         className="banner-wrapper"
@@ -19,10 +24,10 @@ function Services() {
         }}
       >
         <div class="banner-content">
-          <h1 class="banner-title">
+          <p class="banner-title">
             <span className="font-bold">We guide you</span> on your
             <span className="font-bold"> Padel Journey!</span>
-          </h1>
+          </p>
         </div>
       </div>
       <div className="space-y-4 px-6 pb-10 pt-20 md:mx-auto md:w-4/6">
@@ -67,8 +72,12 @@ function Services() {
           <div className="flex items-center justify-center overflow-hidden lg:w-1/2">
             <img
               src="https://images.unsplash.com/photo-1658491830143-72808ca237e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1546&q=80"
-              alt="Spinning Ball with water"
-              className="min-h-full	min-w-full shrink-0	object-cover"
+              alt="Padel Court Net"
+              className="card-image"
+              loading="lazy"
+              title="Padel Court Net"
+              width="500"
+              height="auto"
             ></img>
           </div>
           <div className="space-y-6 p-6 py-10 md:px-0 lg:w-1/2 lg:pl-6 lg:pt-0 ">
@@ -95,8 +104,12 @@ function Services() {
           <div className="flex items-center justify-center overflow-hidden lg:w-1/2">
             <img
               src="https://images.unsplash.com/photo-1646649852033-7e0f3d679f8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80"
-              alt="Spinning Ball with water"
-              className="min-h-full	min-w-full shrink-0	object-cover"
+              alt="Two Padel Players about to shake hands"
+              className="card-image"
+              loading="lazy"
+              title="Padel Players"
+              width="500"
+              height="auto"
             ></img>
           </div>
           <div className="space-y-6 p-6 py-10 md:px-0 lg:w-1/2 lg:pr-6">
@@ -128,8 +141,12 @@ function Services() {
           <div className="flex items-center justify-center overflow-hidden lg:w-1/2">
             <img
               src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-              alt="Spinning Ball with water"
-              className="min-h-full	min-w-full shrink-0	object-cover"
+              alt="Open Sign on Shop Door"
+              className="card-image"
+              loading="lazy"
+              title="Open Shop"
+              width="500"
+              height="auto"
             ></img>
           </div>
           <div className="space-y-6 p-6 py-10 md:px-0 lg:w-1/2 lg:pl-6 ">
