@@ -1,12 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CallToAction from "./CallToAction";
-import Logo from "../PadelEssentials_LogoWhite.svg";
+import { Helmet } from "react-helmet-async";
 
 function Home() {
   return (
     <main>
-      <h1 className="sr-only">Padel Essentials</h1>
+      <Helmet>
+        <title>Padel Essentials</title>
+        <meta
+          name="description"
+          content="Your one-stop shop for all things Padel! With extensive experience in opening and managing successful clubs, we are the ideal partners for your Padel Club venture."
+        />
+        <link rel="canonical" href="/" />
+      </Helmet>
+      <h1 className="sr-only">
+        Padel Essentials. Your one-stop shop for all things Padel!
+      </h1>
       <div
         className="banner-wrapper"
         style={{

@@ -12,7 +12,9 @@ function Contact() {
         />
         <link rel="canonical" href="/contact" />
       </Helmet>
-      <h1 className="sr-only">Contact Us</h1>
+      <h1 className="sr-only">
+        Contact Us. Partner with us and get the most from your Padel Club!
+      </h1>
       <div
         className="banner-wrapper"
         style={{

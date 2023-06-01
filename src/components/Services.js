@@ -11,10 +11,15 @@ function Services() {
     <main className="flex flex-col">
       <Helmet>
         <title>Services</title>
-        <meta name="description" content="Descirption for about section" />
+        <meta
+          name="description"
+          content="Our mission is to be a trusted partner for Padel enthusiasts looking to start their own club. We are passionate about Padel and committed to helping our clients succeed."
+        />
         <link rel="canonical" href="/services" />
       </Helmet>
-      <h1 className="sr-only">Services</h1>
+      <h1 className="sr-only">
+        Our Services. Looking to open a Padel Club? Let us guide you!
+      </h1>
       <div
         className="banner-wrapper"
         style={{

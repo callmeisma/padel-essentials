@@ -14,7 +14,9 @@ function About() {
         />
         <link rel="canonical" href="/about" />
       </Helmet>
-      <h1 className="sr-only">About Us</h1>
+      <h1 className="sr-only">
+        About Us - Our goal is to assist you in creating a thriving Padel Club
+      </h1>
       <div
         className="banner-wrapper"
         style={{
